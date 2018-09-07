@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ForexServiceApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ForexServiceApplication.class, args);
+        System.out.println("App started!");
     }
 }
