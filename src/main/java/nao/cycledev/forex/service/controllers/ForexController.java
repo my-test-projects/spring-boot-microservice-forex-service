@@ -21,7 +21,6 @@ public class ForexController {
     public ExchangeValue getExchangeValue(@PathVariable String from, @PathVariable String to) {
         ExchangeValue value = repository.findByFromAndTo(from, to);
         value.setPort(port);
-
         return value;
     }
 }
